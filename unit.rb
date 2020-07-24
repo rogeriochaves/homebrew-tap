@@ -1,9 +1,9 @@
 class Unit < Formula
-  version "0.1.0"
+  version "0.1.1"
   desc "Universal Test Generator"
   homepage "https://github.com/rogeriochaves/unit"
   url "https://github.com/rogeriochaves/unit/releases/download/#{version}/unit-#{version}-x86_64-apple-darwin.tar.gz"
-  sha256 "8231b4b309ce346d4b69d4adadd3da9f86f4caafc401a955b91e587d47d0b128"
+  sha256 "67bdb7f367419f37d36118a8a07a983638a2ffe07c03a49818bd791e10cbf1ec"
 
   def install
     bin.install "unit"
